@@ -1,0 +1,35 @@
+# Visual C++ cache files
+*.sdf
+*.aps
+*.ncb
+*.opensdf
+*.cachefile
+*.ipch
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# tlog directory
+*.tlog/
+
+# immediate, output files
+*.pdb
+*.ilk
+*.exe
+*.log
+*.[Oo]bj
+*.pidb
+*.idb
+
+# Platform dependant garbage files
+[Tt]humbs.db
+*.DS_Store
+
