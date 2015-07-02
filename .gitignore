@@ -7,6 +7,9 @@
 *.ipch
 /ipch
 
+# Pre-compiled header
+*.pch
+
 # Visual Studio profiler
 *.psess
 *.vsp
@@ -35,7 +38,7 @@
 *.cache
 *.deps
 *.lastbuildstate
-
+*.unsuccessfulbuild
 
 # Platform dependant garbage files
 [Tt]humbs.db
