@@ -5,6 +5,7 @@
 *.opensdf
 *.cachefile
 *.ipch
+/ipch
 
 # Visual Studio profiler
 *.psess
@@ -17,8 +18,9 @@
 *.userosscache
 *.sln.docstates
 
-# tlog directory
+# tlog file, directory
 *.tlog/
+*.tlog
 
 # immediate, output files
 *.pdb
@@ -28,6 +30,12 @@
 *.[Oo]bj
 *.pidb
 *.idb
+
+# CUDA immediate files
+*.cache
+*.deps
+*.lastbuildstate
+
 
 # Platform dependant garbage files
 [Tt]humbs.db
